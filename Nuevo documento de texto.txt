@@ -1,0 +1,8 @@
+Como si fueras desarrollador web, genera el código para la landing page de un servicio de venta de películas físicas como si fuera de los años 90-2000s
+Debe mostrar los servicios y el contacto.
+La estructura debe ser la siguiente:
+1- Inicio (Bienvenida y breve resumen de que se trata la pagina)
+2- Productos (Secciones por género de película, terror, clasicos, etc)
+3- Contacto, redes.
+El estilo debe ser synthwave, que sea una página moderna de estos años pero con la vibra de aquellos años.
+Además debes generar y guardar en el directorio de este proyecto un archivo agent.md y un memory.md

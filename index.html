@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VideoClub — Películas Físicas Retro</title>
+  <meta name="description" content="Venta de películas físicas VHS, DVD y Blu-ray con vibra synthwave retro." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Fondo synthwave -->
+  <div class="bg-grid"></div>
+  <div class="bg-sun"></div>
+
+  <!-- Navegación -->
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="#inicio">
+        <span class="logo-icon">📼</span>
+        <span class="logo-text">VIDEO<span class="accent">CLUB</span></span>
+      </a>
+      <nav class="nav-links">
+        <a href="#inicio">Inicio</a>
+        <a href="#productos">Productos</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    </div>
+  </header>
+
+  <!-- Inicio -->
+  <section id="inicio" class="hero">
+    <div class="container hero-inner">
+      <p class="eyebrow">EST. 1990 · SYNTHWAVE STORE</p>
+      <h1 class="hero-title">
+        Películas <span class="neon-pink">físicas</span><br />
+        con alma <span class="neon-cyan">retro</span>
+      </h1>
+      <p class="hero-desc">
+        VHS, DVD y Blu-ray originales para coleccionistas y cinéfilos. Catálogo curado por
+        género, envíos a todo el país y atención personalizada. Revive la magia de los videoclubs
+        de los 90 y 2000s con una tienda moderna de hoy.
+      </p>
+      <div class="hero-actions">
+        <a href="#productos" class="btn btn-primary">Ver catálogo</a>
+        <a href="#contacto" class="btn btn-ghost">Contactar</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><strong>+1.200</strong><span>Títulos</span></div>
+        <div class="stat"><strong>5</strong><span>Géneros</span></div>
+        <div class="stat"><strong>24/7</strong><span>Soporte</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Servicios -->
+  <section class="services">
+    <div class="container">
+      <h2 class="section-title">Nuestros <span class="neon-pink">servicios</span></h2>
+      <div class="services-grid">
+        <article class="service-card">
+          <div class="service-icon">📼</div>
+          <h3>Venta de VHS</h3>
+          <p>Cintas originales y ediciones coleccionables, revisadas y en excelente estado.</p>
+        </article>
+        <article class="service-card">
+          <div class="service-icon">💿</div>
+          <h3>DVD & Blu-ray</h3>
+          <p>Discos nuevos y de segunda mano, con carátulas y extras originales.</p>
+        </article>
+        <article class="service-card">
+          <div class="service-icon">📦</div>
+          <h3>Envíos seguros</h3>
+          <p>Embalaje protector y seguimiento en tiempo real a todo el país.</p>
+        </article>
+        <article class="service-card">
+          <div class="service-icon">🎁</div>
+          <h3>Packs temáticos</h3>
+          <p>Cajas de películas por género o director, ideal para regalar.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Productos -->
+  <section id="productos" class="products">
+    <div class="container">
+      <h2 class="section-title">Catálogo por <span class="neon-cyan">género</span></h2>
+      <p class="section-sub">Explora nuestras secciones. Cada título incluye formato y precio.</p>
+
+      <!-- Terror -->
+      <div class="genre-block">
+        <h3 class="genre-title">🩸 Terror</h3>
+        <div class="cards">
+          <article class="movie-card">
+            <div class="movie-cover cover-terror1"></div>
+            <div class="movie-info">
+              <h4>Pesadilla en la calle Elm</h4>
+              <span class="badge">VHS · 1984</span>
+              <p class="price">$18.99</p>
+              <button class="btn btn-small">Añadir</button>
+            </div>
+          </article>
+          <article class="movie-card">
+            <div class="movie-cover cover-terror2"></div>
+            <div class="movie-info">
+              <h4>El Resplandor</h4>
+              <span class="badge">DVD · 1980</span>
+              <p class="price">$14.50</p>
+              <button class="btn btn-small">Añadir</button>
+            </div>
+          </article>
+          <article class="movie-card">
+            <div class="movie-cover cover-terror3"></div>
+            <div class="movie-info">
+              <h4>Halloween</h4>
+              <span class="badge">Blu-ray · 1978</span>
+              <p class="price">$22.00</p>
+              <button class="btn btn-small">Añadir</button>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <!-- Clásicos -->
+      <div class="genre-block">
+        <h3 class="genre-title">🎬 Clásicos</h3>
+        <div class="cards">
+          <article class="movie-card">
+            <div class="movie-cover cover-classic1"></div>
+            <div class="movie-info">
+              <h4>Casablanca</h4>
+              <span class="badge">DVD · 1942</span>
+              <p class="price">$12.99</p>
+              <button class="btn btn-small">Añadir</button>
+            </div>
+          </article>
+          <article class="movie-card">
+            <div class="movie-cover cover-classic2"></div>
+            <div class="movie-info">
+              <h4>El Padrino</h4>
+              <span class="badge">Blu-ray · 1972</span>
+              <p class="price">$19.99</p>
+              <button class="btn btn-small">Añadir</button>
+            </div>
+          </article>
+          <article class="movie-card">
+            <div class="movie-cover cover-classic3"></div>
+            <div class="movie-info">
+              <h4>Ciudadano Kane</h4>
+              <span class="badge">VHS · 1941</span>
+              <p class="price">$11.50</p>
+              <button class="btn btn-small">Añadir</button>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <!-- Acción -->
+      <div class="genre-block">
+        <h3 class="genre-title">💥 Acción</h3>
+        <div class="cards">
+          <article class="movie-card">
+            <div class="movie-cover cover-action1"></div>
+            <div class="movie-info">
+              <h4>Terminator 2</h4>
+              <span class="badge">Blu-ray · 1991</span>
+              <p class="price">$16.99</p>
+              <button class="btn btn-small">Añadir</button>
+            </div>
+          </article>
+          <article class="movie-card">
+            <div class="movie-cover cover-action2"></div>
+            <div class="movie-info">
+              <h4>Matrix</h4>
+              <span class="badge">DVD · 1999</span>
+              <p class="price">$13.99</p>
+              <button class="btn btn-small">Añadir</button>
+            </div>
+          </article>
+          <article class="movie-card">
+            <div class="movie-cover cover-action3"></div>
+            <div class="movie-info">
+              <h4>Die Hard</h4>
+              <span class="badge">VHS · 1988</span>
+              <p class="price">$10.99</p>
+              <button class="btn btn-small">Añadir</button>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <!-- Sci-Fi -->
+      <div class="genre-block">
+        <h3 class="genre-title">👽 Sci-Fi</h3>
+        <div class="cards">
+          <article class="movie-card">
+            <div class="movie-cover cover-scifi1"></div>
+            <div class="movie-info">
+              <h4>Blade Runner</h4>
+              <span class="badge">Blu-ray · 1982</span>
+              <p class="price">$21.50</p>
+              <button class="btn btn-small">Añadir</button>
+            </div>
+          </article>
+          <article class="movie-card">
+            <div class="movie-cover cover-scifi2"></div>
+            <div class="movie-info">
+              <h4>Alien</h4>
+              <span class="badge">DVD · 1979</span>
+              <p class="price">$15.00</p>
+              <button class="btn btn-small">Añadir</button>
+            </div>
+          </article>
+          <article class="movie-card">
+            <div class="movie-cover cover-scifi3"></div>
+            <div class="movie-info">
+              <h4>Regreso al Futuro</h4>
+              <span class="badge">VHS · 1985</span>
+              <p class="price">$17.25</p>
+              <button class="btn btn-small">Añadir</button>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <!-- Comedia -->
+      <div class="genre-block">
+        <h3 class="genre-title">😂 Comedia</h3>
+        <div class="cards">
+          <article class="movie-card">
+            <div class="movie-cover cover-comedy1"></div>
+            <div class="movie-info">
+              <h4>Los Cazafantasmas</h4>
+              <span class="badge">DVD · 1984</span>
+              <p class="price">$12.50</p>
+              <button class="btn btn-small">Añadir</button>
+            </div>
+          </article>
+          <article class="movie-card">
+            <div class="movie-cover cover-comedy2"></div>
+            <div class="movie-info">
+              <h4>La Máscara</h4>
+              <span class="badge">VHS · 1994</span>
+              <p class="price">$9.99</p>
+              <button class="btn btn-small">Añadir</button>
+            </div>
+          </article>
+          <article class="movie-card">
+            <div class="movie-cover cover-comedy3"></div>
+            <div class="movie-info">
+              <h4>Ace Ventura</h4>
+              <span class="badge">Blu-ray · 1994</span>
+              <p class="price">$13.25</p>
+              <button class="btn btn-small">Añadir</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto" class="contact">
+    <div class="container contact-inner">
+      <div class="contact-info">
+        <h2 class="section-title">Contacto & <span class="neon-pink">redes</span></h2>
+        <p>¿Buscas un título que no está en el catálogo? Escríbenos y lo encontramos por ti.</p>
+        <ul class="contact-list">
+          <li>📍 Calle Retro 90, Ciudad Neon</li>
+          <li>📞 +54 11 5555-0190</li>
+          <li>✉️ hola@videoclub90.com</li>
+          <li>🕒 Lun–Sáb 10:00–20:00</li>
+        </ul>
+        <div class="socials">
+          <a href="#" aria-label="Instagram" class="social">📸</a>
+          <a href="#" aria-label="Facebook" class="social">📘</a>
+          <a href="#" aria-label="X" class="social">🐦</a>
+          <a href="#" aria-label="YouTube" class="social">▶️</a>
+          <a href="#" aria-label="TikTok" class="social">🎵</a>
+        </div>
+      </div>
+      <form class="contact-form" onsubmit="handleSubmit(event)">
+        <div class="field">
+          <label for="name">Nombre</label>
+          <input id="name" type="text" placeholder="Tu nombre" required />
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input id="email" type="email" placeholder="tu@email.com" required />
+        </div>
+        <div class="field">
+          <label for="msg">Mensaje</label>
+          <textarea id="msg" rows="4" placeholder="¿Qué película buscas?" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-full">Enviar mensaje</button>
+        <p class="form-status" id="formStatus"></p>
+      </form>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 1990–2026 VideoClub · Películas físicas con vibra synthwave.</p>
+      <p class="footer-small">Hecho con ♥ y neón.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
